@@ -1,0 +1,48 @@
+\documentclass[11pt, oneside]{memoir}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex	
+								
+								% To Fix: bolder/bigger font, roman/calligraphig greek 
+								% letters in mathmod
+								
+\usepackage{pstricks}				% pstricks
+\usepackage{pstricks-add}			%
+\usepackage{pst-eps}				%
+
+\usepackage{bm}					% bold greek letters in math mode
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{upgreek}
+
+%\usepackage[math-style=french]{unicode-math}
+
+
+\title{Brief Article}
+\author{The Author}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+
+%\thispagestyle{empty}				% do not use!! for some reason rotates
+
+\begin{center} 
+	\pspicture(0,0)(10,10)
+
+		\Large\bfseries
+	
+		\cput[linestyle=none](4.8,2.5){ \HUGE $\mu \! \prod \! \lambda \forall$}
+
+		\rput[B]{270}(7,2.5){\Large Computation - 1997}
+		\rput[B]{0}(4.9,5.1){\Large of \, Algorithms \, and}
+		\rput[B]{90}(2.6,2.4){\Large on Logic and Theory}
+		\rput[B]{180}(5,0){\Large Graduate Program}
+
+	\endpspicture
+\end{center} 
+
+
+\end{document}  
