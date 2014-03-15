@@ -1,7 +1,7 @@
 mpla-logo-latex
 ===============
 
-Recreation of the logo of [MPLA](http://mpla.math.uoa.gr/en/ "ΜΠΛΑ") (Graduate Program in Logic, Algorithms and Computation). You can find here an english and a greek version of the logo.
+Re-creation of the logo of [MPLA](http://mpla.math.uoa.gr/en/ "ΜΠΛΑ") (Graduate Program in Logic, Algorithms and Computation). You can find here an english and a greek version of the logo.
 
 ************
 
