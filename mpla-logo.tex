@@ -17,24 +17,26 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{upgreek}
+\usepackage[cbgreek]{textgreek}
+
 
 %\usepackage[math-style=french]{unicode-math}
 
 
 \title{Brief Article}
 \author{The Author}
-%\date{}							% Activate to display a given date or no date
 
 \begin{document}
 
-%\thispagestyle{empty}				
+\thispagestyle{empty}				
 
 \begin{center} 
 	\pspicture(0,0)(10,10)
 
-		\Large\bfseries
 	
-		\cput[linestyle=none](4.8,2.5){ \HUGE $\mu \! \prod \! \lambda \forall$}
+		\cput[linestyle=none](4.8,2.5){\resizebox{7em}{!}{\textmugreek\resizebox{1em}{0.9em}{\raisebox{-0.7pt}{\textPi}}\textlambda$\boldsymbol{\forall}$}}
+		
+		\bfseries
 
 		\rput[B]{270}(7,2.5){\Large Computation - 1997}
 		\rput[B]{0}(4.9,5.1){\Large \!ory \!of\! Algorithms\! and}
