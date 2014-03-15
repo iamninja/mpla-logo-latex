@@ -1,13 +1,8 @@
-\documentclass[11pt, oneside]{memoir}   	% use "amsart" instead of "article" for AMSLaTeX format
-\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
-%\geometry{landscape}                		% Activate for for rotated page geometry
-%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
-\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
-								% TeX will automatically convert eps --> pdf in pdflatex	
+\documentclass[11pt,pstricks,border=12pt]{standalone}   	
+%\documentclass[11pt]{article} 		%use this document class on develop mode
+
+\usepackage{graphicx}					
 								
-								% To Fix: bolder/bigger font, roman/calligraphig greek 
-								% letters in mathmod
 								
 \usepackage{pstricks}				% pstricks
 \usepackage{pstricks-add}			%
@@ -20,18 +15,15 @@
 \usepackage[cbgreek]{textgreek}
 
 
-%\usepackage[math-style=french]{unicode-math}
-
 
 \title{Brief Article}
 \author{The Author}
 
 \begin{document}
 
-\thispagestyle{empty}				
+%\thispagestyle{empty}				
 
-\begin{center} 
-	\pspicture(0,0)(10,10)
+	\begin{pspicture}(2.6,0)(7,5.1)
 
 	
 		\cput[linestyle=none](4.8,2.5){\resizebox{7em}{!}{\textmugreek\resizebox{1em}{0.9em}{\raisebox{-0.7pt}{\textPi}}\textlambda$\boldsymbol{\forall}$}}
@@ -43,8 +35,7 @@
 		\rput[B]{90}(2.6,2.4){\Large in Logic and the The}
 		\rput[B]{180}(5,0){\Large Graduate Program}
 
-	\endpspicture
-\end{center} 
+	\end{pspicture}
 
 
 \end{document}  
